@@ -1,0 +1,12 @@
+@import url(/stylesheets/style.css);
+
+.container{
+    width: 100%;
+
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

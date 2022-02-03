@@ -1,0 +1,89 @@
+@import url(/stylesheets/style.css);
+
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--primary-100);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-100);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+}
+
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+}
+
+.btn-link {
+  text-decoration: none;
+  background-color: var(--link-color);
+  padding: 0.6rem 1rem;
+}
+
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-danger,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-link {
+  background-color: white;
+  border: 1px solid;
+}
+.btn-outline-primary {
+  color: var(--primary-100);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary-100);
+}
+
+.btn-outline-danger {
+  color: var(--danger);
+}
+
+.btn-outline-success {
+  color: var(--success);
+}
+
+.btn-outline-warning {
+  color: var(--warning);
+}
+
+.btn-icon {
+  color: var(--primary-100);
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: large;
+}
+
+.fas {
+  font-size: 2rem;
+  color: white;
+}
+
+/* floating action button */
+
+.btn-fab {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-100);
+  box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.7);
+}
