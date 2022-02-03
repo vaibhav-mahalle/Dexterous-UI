@@ -1,128 +1,89 @@
 @import url(/stylesheets/style.css);
 
-
-.page-container{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.btn {
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
 }
 
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+.btn-primary {
+  background-color: var(--primary-100);
 }
 
-.btn{
-    padding: 0.8rem 2rem;
-    border-radius: 6px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-
+.btn-secondary {
+  background-color: var(--secondary-100);
 }
 
-.btn-primary{
-    color: white;
-    background-color: var(--primary-100);
+.btn-danger {
+  background-color: var(--danger);
 }
 
-.btn-secondary{
-    color: white;
-    background-color: var(--secondary-100);
+.btn-success {
+  background-color: var(--success);
 }
 
-.btn-danger{
-    color: white;
-    background-color: var(--danger);
+.btn-warning {
+  background-color: var(--warning);
 }
 
-.btn-success{
-    color: white;
-    background-color: var(--success);
+.btn-link {
+  text-decoration: none;
+  background-color: var(--link-color);
+  padding: 0.6rem 1rem;
 }
 
-.btn-warning{
-    color: white;
-    background-color: var(--warning);
+.outlined-primary,
+.outlined-secondary,
+.outlined-danger,
+.outlined-success,
+.outlined-warning,
+.outlined-link {
+  background-color: white;
+  border: 1px solid;
+}
+.outlined-primary {
+  color: var(--primary-100);
 }
 
-.btn-link{
-    text-decoration: none;
-    color: white;
-    background-color: var(--link-color);
-    padding: 0.6rem 1rem;
+.outlined-secondary {
+  color: var(--secondary-100);
 }
 
-.outlined-primary{
-    color: var(--primary-100);
-    background-color: white;
-    border: 1px solid ;
+.outlined-danger {
+  color: var(--danger);
 }
 
-.outlined-secondary{
-    color: var(--secondary-100);
-    background-color: white;
-    border: 1px solid ;
+.outlined-success {
+  color: var(--success);
 }
 
-.outlined-danger{
-    color: var(--danger);
-    background-color: white;
-    border: 1px solid ;
+.outlined-warning {
+  color: var(--warning);
 }
 
-.outlined-success{
-    color: var(--success);
-    background-color: white;
-    border: 1px solid ;
+.btn-icon {
+  color: var(--primary-100);
+  outline: none;
+  border: none;
+  background-color: white;
+  font-size: large;
 }
 
-.outlined-warning{
-    color: var(--warning);
-    background-color: white;
-    border: 1px solid ;
+.fas {
+  font-size: 2rem;
+  color: white;
 }
 
-.outlined-link{
-    text-decoration: none;
-    color: var(--link-color);
-    background-color: white;
-    padding: 0.6rem 1rem;
-    border: 1px solid ;
-}
+/* floating action button */
 
-.icon{
-    color: var(--primary-100);
-    outline: none;
-    border: none;
-    background-color: white;
-    font-size: large;
-    
-}
-
-.fas{
-    font-size: 2rem;
-    color: white;
-}
-
-.btn-rounded{
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--primary-100);
-}
-
-
-
-:root{
-    --primary-100: rgb(23, 196, 185);
-    --primary-100: hsl(177, 100%, 16%);
-    --secondary-100: hsl(177, 70%, 70%);
-    --danger: hsl(0, 91%, 50%);
-    --success: hsl(120, 100%, 25%);
-    --warning: rgb(236, 194, 56);
-    --link-color: rgb(100, 106, 223);
-
+.btn-fab {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--primary-100);
+  box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.7);
 }
