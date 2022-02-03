@@ -35,32 +35,32 @@
   padding: 0.6rem 1rem;
 }
 
-.outlined-primary,
-.outlined-secondary,
-.outlined-danger,
-.outlined-success,
-.outlined-warning,
-.outlined-link {
+.btn-outline-primary,
+.btn-outline-secondary,
+.btn-outline-danger,
+.btn-outline-success,
+.btn-outline-warning,
+.btn-outline-link {
   background-color: white;
   border: 1px solid;
 }
-.outlined-primary {
+.btn-outline-primary {
   color: var(--primary-100);
 }
 
-.outlined-secondary {
+.btn-outline-secondary {
   color: var(--secondary-100);
 }
 
-.outlined-danger {
+.btn-outline-danger {
   color: var(--danger);
 }
 
-.outlined-success {
+.btn-outline-success {
   color: var(--success);
 }
 
-.outlined-warning {
+.btn-outline-warning {
   color: var(--warning);
 }
 
