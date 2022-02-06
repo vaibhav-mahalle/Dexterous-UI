@@ -1,0 +1,71 @@
+@import url(/stylesheets/style.css);
+@import url(/components/button.css);
+
+
+.avatar>img{
+    border: solid var(--primary-100);
+    height: auto;
+    width: 7rem;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.avatar-container{
+
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.avatar-presence{
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top:2rem;
+    left: 4.9rem;
+
+}
+
+.online{
+    background-color: rgb(98, 235, 98);
+}
+
+.offline{
+    background-color: rgb(193, 183, 183);
+}
+
+.busy{
+    background-color: rgb(228, 59, 59);
+}
+
+.avatar-xs{
+    width: 30%;
+}
+
+.avatar-s{
+    width: 45%;
+}
+
+.avatar-m{
+    width: 60%;
+}
+
+.avatar-l{
+    position: relative;
+    width: 75%;
+}
+
+.avatar-xl{
+    width: 90%;
+}
+
+.avatar-xxl{
+    width: 120%;
+}
