@@ -1,0 +1,100 @@
+@import url(/stylesheets/style.css);
+
+:root {
+  --primary-darker: 209, 100%, 20%;
+  --primary-dark: 209, 80%, 35%;
+  --primary: 209, 100%, 55%;
+  --primary-light: 209, 100%, 70%;
+  --primary-lighter: 209, 25%, 85%;
+  --secondary-darker: 18, 100%, 20%;
+  --secondary-dark: 18, 80%, 35%;
+  --secondary: 18, 98%, 59%;
+  --secondary-light: 18, 100%, 70%;
+  --secondary-lighter: 18, 25%, 85%;
+  --red-700: 0, 100%, 42%;
+  --red-500: 0, 100%, 65%;
+  --red-300: 0, 100%, 95%;
+  --green-700: 108, 72%, 30%;
+  --green-500: 108, 80%, 45%;
+  --green-300: 108, 100%, 95%;
+  --orange-700: 36, 100%, 25%;
+  --orange-500: 36, 100%, 50%;
+  --orange-300: 36, 100%, 90%;
+  --blue-700: 205, 100%, 35%;
+  --blue-500: 200, 100%, 50%;
+  --blue-300: 200, 100%, 90%;
+}
+
+.parent-container{
+    margin: 1rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.alert {
+  display: block;
+  width: 25rem;
+  border: 1px solid;
+  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: hsl(var(--primary)) solid;
+}
+
+.alert-primary {
+  background-color: hsl(var(--primary));
+  border-color: hsl(var(--primary-dark));
+}
+
+.alert-secondary {
+  background-color: hsl(var(--secondary));
+  border-color: hsl(var(--secondary-dark));
+}
+
+.alert-success {
+  background-color: hsl(var(--green-500));
+  border-color: hsl(var(--green-700));
+}
+
+.alert-danger {
+  background-color: hsl(var(--red-300));
+  border-color: hsl(var(--red-500));
+}
+
+.alert-warning {
+  background-color: hsl(var(--orange-300));
+  border-color: hsl(var(--orange-500));
+}
+
+.outline-primary {
+  color: hsl(var(--primary));
+  border-color: hsl(var(--primary));
+}
+
+.outline-secondary {
+  color: hsl(var(--secondary));
+  border-color: hsl(var(--secondary));
+}
+
+.outline-success {
+  color: hsl(var(--green-500));
+  border-color: hsl(var(--green-500));
+}
+
+.outline-danger {
+  color: hsl(var(--red-500));
+  border-color: hsl(var(--red-500));
+}
+
+.outline-warning {
+  color: hsl(var(--orange-500));
+  border-color: hsl(var(--orange-500));
+}
