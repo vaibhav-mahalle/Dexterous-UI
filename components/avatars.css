@@ -4,9 +4,7 @@
 .avatar > img {
   border: solid var(--primary-100);
   height: auto;
-  width: 7rem;
   border-radius: 50%;
-  text-align: center;
 }
 
 .avatar-container {
@@ -42,26 +40,26 @@
 }
 
 .avatar-xs {
-  width: 30%;
+  width: 2rem;
 }
 
 .avatar-s {
-  width: 45%;
+  width: 3rem;
 }
 
 .avatar-m {
-  width: 60%;
+  width: 4rem;
 }
 
 .avatar-l {
   position: relative;
-  width: 75%;
+  width: 5rem;
 }
 
 .avatar-xl {
-  width: 90%;
+  width: 6rem;
 }
 
 .avatar-xxl {
-  width: 120%;
+  width: 7rem;
 }
