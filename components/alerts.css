@@ -1,4 +1,4 @@
-@import url(/stylesheets/style.css);
+@import url(/stylesheets/main.css);
 
 
 .parent-container{
@@ -22,55 +22,55 @@
   flex-direction: column;
   gap: 1rem;
   padding-bottom: 1rem;
-  border-bottom: hsl(var(--primary)) solid;
+  border-bottom: hsl(var(--primary-color)) solid;
 }
 
 .alert-primary {
-  background-color: hsl(var(--primary));
+  background-color: hsl(var(--primary-color));
   border-color: hsl(var(--primary-dark));
 }
 
 .alert-secondary {
-  background-color: hsl(var(--secondary));
+  background-color: hsl(var(--secondary-color));
   border-color: hsl(var(--secondary-dark));
 }
 
 .alert-success {
-  background-color: hsl(var(--green-500));
-  border-color: hsl(var(--green-700));
+  background-color: hsl(var(--green-color));
+  border-color: hsl(var(--green-dark));
 }
 
 .alert-danger {
-  background-color: hsl(var(--red-300));
-  border-color: hsl(var(--red-500));
+  background-color: hsl(var(--red-light));
+  border-color: hsl(var(--red-color));
 }
 
 .alert-warning {
-  background-color: hsl(var(--orange-300));
-  border-color: hsl(var(--orange-500));
+  background-color: hsl(var(--orange-color));
+  border-color: hsl(var(--orange-dark));
 }
 
 .outline-primary {
-  color: hsl(var(--primary));
-  border-color: hsl(var(--primary));
+  color: hsl(var(--primary-color));
+  border-color: hsl(var(--primary-color));
 }
 
 .outline-secondary {
-  color: hsl(var(--secondary));
-  border-color: hsl(var(--secondary));
+  color: hsl(var(--secondary-color));
+  border-color: hsl(var(--secondary-color));
 }
 
 .outline-success {
-  color: hsl(var(--green-500));
-  border-color: hsl(var(--green-500));
+  color: hsl(var(--green-color));
+  border-color: hsl(var(--green-color));
 }
 
 .outline-danger {
-  color: hsl(var(--red-500));
-  border-color: hsl(var(--red-500));
+  color: hsl(var(--red-color));
+  border-color: hsl(var(--red-color));
 }
 
 .outline-warning {
-  color: hsl(var(--orange-500));
-  border-color: hsl(var(--orange-500));
+  color: hsl(var(--orange-color));
+  border-color: hsl(var(--orange-color));
 }
