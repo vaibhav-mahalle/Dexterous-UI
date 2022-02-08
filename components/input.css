@@ -1,24 +1,21 @@
 @import url(/stylesheets/style.css);
 
-.input{
-    display: block;
-    padding: 0.5rem;
-    width: 15rem;
-    margin-top: 5px;
-
+.input {
+  display: block;
+  padding: 0.5rem;
+  width: 15rem;
+  margin-top: 5px;
 }
 
-.focus-input{
-    border: 2px solid var(--primary-100);
+.focus-input {
+  border: 2px solid var(--primary-100);
 }
 
-.disabled-input{
-    pointer-events: none;
-    border: ;
-
+.disabled-input {
+  pointer-events: none;
 }
 
-.error-input{
-    border: 2px solid var(--danger);
-    background-color: hsl(var(--red-light),0.1);
+.error-input {
+  border: 2px solid var(--danger);
+  background-color: hsl(var(--red-light), 0.1);
 }
