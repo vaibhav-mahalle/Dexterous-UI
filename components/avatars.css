@@ -1,8 +1,8 @@
-@import url(/stylesheets/style.css);
+@import url(/stylesheets/main.css);
 @import url(/components/button.css);
 
 .avatar > img {
-  border: solid var(--primary-100);
+  border: solid hsl(var(--primary-light));
   height: auto;
   border-radius: 50%;
 }
@@ -28,7 +28,7 @@
 }
 
 .online {
-  background-color: rgb(98, 235, 98);
+  background-color: hsl(var(--green-color));
 }
 
 .offline {
@@ -36,7 +36,7 @@
 }
 
 .busy {
-  background-color: rgb(228, 59, 59);
+  background-color: hsl(var(--red-color));
 }
 
 .avatar-xs {

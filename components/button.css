@@ -1,4 +1,4 @@
-@import url(/stylesheets/style.css);
+@import url(/stylesheets/main.css);
 
 .btn {
   padding: 0.8rem 2rem;
@@ -10,28 +10,28 @@
 }
 
 .btn-primary {
-  background-color: var(--primary-100);
+  background-color: hsl(var(--primary-color));
 }
 
 .btn-secondary {
-  background-color: var(--secondary-100);
+  background-color: hsl(var(--secondary-color));
 }
 
 .btn-danger {
-  background-color: var(--danger);
+  background-color: hsl(var(--red-color));
 }
 
 .btn-success {
-  background-color: var(--success);
+  background-color: hsl(var(--green-color));
 }
 
 .btn-warning {
-  background-color: var(--warning);
+  background-color: hsl(var(--orange-color));
 }
 
 .btn-link {
   text-decoration: none;
-  background-color: var(--link-color);
+  background-color: hsl(var(--secondary-light));
   padding: 0.6rem 1rem;
 }
 
@@ -45,27 +45,27 @@
   border: 1px solid;
 }
 .btn-outline-primary {
-  color: var(--primary-100);
+  color: hsl(var(--primary-color));
 }
 
 .btn-outline-secondary {
-  color: var(--secondary-100);
+  color: hsl(var(--secondary-color));
 }
 
 .btn-outline-danger {
-  color: var(--danger);
+  color: hsl(var(--red-color));
 }
 
 .btn-outline-success {
-  color: var(--success);
+  color: hsl(var(--green-color));
 }
 
 .btn-outline-warning {
-  color: var(--warning);
+  color: hsl(var(--orange-color));
 }
 
 .btn-icon {
-  color: var(--primary-100);
+  color: hsl(var(--primary-color));
   outline: none;
   border: none;
   background-color: white;
@@ -84,6 +84,6 @@
   width: 3rem;
   border-radius: 50%;
   border: none;
-  background-color: var(--primary-100);
+  background-color: hsl(var(--primary-color));
   box-shadow: 4px 2px 7px rgba(0, 0, 0, 0.7);
 }
