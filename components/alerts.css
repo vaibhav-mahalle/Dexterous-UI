@@ -1,0 +1,76 @@
+@import url(/stylesheets/main.css);
+
+
+.parent-container{
+    margin: 1rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.alert {
+  display: block;
+  width: 25rem;
+  border: 1px solid;
+  padding-left: 1rem;
+  padding: 1rem;
+}
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: hsl(var(--primary-color)) solid;
+}
+
+.alert-primary {
+  background-color: hsl(var(--primary-color));
+  border-color: hsl(var(--primary-dark));
+}
+
+.alert-secondary {
+  background-color: hsl(var(--secondary-color));
+  border-color: hsl(var(--secondary-dark));
+}
+
+.alert-success {
+  background-color: hsl(var(--green-color));
+  border-color: hsl(var(--green-dark));
+}
+
+.alert-danger {
+  background-color: hsl(var(--red-light));
+  border-color: hsl(var(--red-color));
+}
+
+.alert-warning {
+  background-color: hsl(var(--orange-color));
+  border-color: hsl(var(--orange-dark));
+}
+
+.outline-primary {
+  color: hsl(var(--primary-color));
+  border-color: hsl(var(--primary-color));
+}
+
+.outline-secondary {
+  color: hsl(var(--secondary-color));
+  border-color: hsl(var(--secondary-color));
+}
+
+.outline-success {
+  color: hsl(var(--green-color));
+  border-color: hsl(var(--green-color));
+}
+
+.outline-danger {
+  color: hsl(var(--red-color));
+  border-color: hsl(var(--red-color));
+}
+
+.outline-warning {
+  color: hsl(var(--orange-color));
+  border-color: hsl(var(--orange-color));
+}
