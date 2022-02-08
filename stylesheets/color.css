@@ -1,0 +1,23 @@
+:root{
+    --primary-color: 329, 90%, 58%;
+    --primary-light: 334, 83%, 81%;
+    --primary-lighter: 333, 83%, 95%;
+
+    --secondary-color: 222, 100%, 60%;
+    --secondary-light: 222, 100%, 84%;
+    --secondary-lighter: 222, 100%, 95%
+
+    --red-dark: 0, 100%, 42%;
+    --red-color: 0, 100%, 65%;
+    --red-light: 0, 100%, 95%;
+
+    --green-dark: 108, 72%, 30%;
+    --green-color: 108, 80%, 45%;
+    --green-light: 108, 100%, 95%;
+
+    --orange-dark: 34, 100%, 30%;
+    --orange-color: 34, 100%, 65%;
+    --orange-light: 34, 100%, 95%;
+
+}
+
