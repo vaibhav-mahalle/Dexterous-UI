@@ -1,4 +1,4 @@
-@import url(/stylesheets/style.css);
+@import url(/stylesheets/main.css);
 
 .input {
   display: block;
@@ -8,7 +8,7 @@
 }
 
 .focus-input {
-  border: 2px solid var(--primary-100);
+  border: 2px solid hsl(var(--secondary-color));
 }
 
 .disabled-input {
@@ -16,6 +16,11 @@
 }
 
 .error-input {
-  border: 2px solid var(--danger);
+  border: 2px solid hsl(var(--red-color));
   background-color: hsl(var(--red-light), 0.1);
+}
+
+input[type="text"]:disabled{
+  background: hsla(0, 0%, 50%,0.1);
+  border: none;
 }
