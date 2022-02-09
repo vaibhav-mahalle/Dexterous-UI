@@ -10,7 +10,7 @@
 }
 
 .image{
-    width: 100%;
+    width: max-width;
     object-fit: cover;
     block-size: auto;
 }
