@@ -17,13 +17,13 @@
   left: 2.8rem;
 }
 
-.badge-s {
+.badge-sm {
   position: relative;
   bottom: 3rem;
   left: 2.5rem;
 }
 
-.badge-m {
+.badge-md {
   height: 0.9rem;
   width: 0.9rem;
   position: relative;
@@ -31,7 +31,7 @@
   left: 3.1rem;
 }
 
-.badge-l {
+.badge-lg {
   height: 1.1rem;
   width: 1.1rem;
   position: relative;

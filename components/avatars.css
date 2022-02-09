@@ -42,15 +42,15 @@
   width: 2rem;
 }
 
-.avatar-s {
+.avatar-sm {
   width: 3rem;
 }
 
-.avatar-m {
+.avatar-md {
   width: 4rem;
 }
 
-.avatar-l {
+.avatar-lg {
   position: relative;
   width: 5rem;
 }
