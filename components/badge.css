@@ -1,0 +1,78 @@
+@import url(/stylesheets/main.css);
+
+.badge {
+  width: 0.8rem;
+  height: 0.8rem;
+  padding: 1px;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: hsl(var(--secondary-color));
+  text-align: center;
+  color: white;
+}
+
+.align-badge {
+  position: relative;
+  top: 1.5rem;
+  left: 2.8rem;
+}
+
+.badge-sm {
+  position: relative;
+  bottom: 3rem;
+  left: 2.5rem;
+}
+
+.badge-md {
+  height: 0.9rem;
+  width: 0.9rem;
+  position: relative;
+  bottom: 4rem;
+  left: 3.1rem;
+}
+
+.badge-lg {
+  height: 1.1rem;
+  width: 1.1rem;
+  position: relative;
+  bottom: 4.8rem;
+  left: 4.1rem;
+}
+
+.badge-xl {
+  height: 1.3rem;
+  width: 1.3rem;
+  position: relative;
+  bottom: 5.8rem;
+  left: 4.9rem;
+}
+
+.badge-online{
+    background-color: hsl(var(--green-color));
+}
+
+.badge-offline{
+    background-color: hsla(var(--gray-color),0.5);
+}
+
+.badge-busy{
+    background-color: hsl(var(--red-color));
+}
+
+.badge-container {
+  background-color: hsl(var(--primary-lighter));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.icon-container {
+  position: relative;
+  background-color: hsl(var(--primary-lighter));
+}
+
+.background{
+    background-color: hsl(var(--primary-lighter));
+}
