@@ -19,6 +19,9 @@
     --orange-color: 34, 100%, 65%;
     --orange-light: 34, 100%, 95%;
 
+    --gray-color: 0, 7%, 74%;
+    --disabled-bg-color: 0, 0%, 50%, 0.1;
+
 
 }
 
