@@ -1,0 +1,14 @@
+@import url(/stylesheets/main.css);
+
+.ratings-container{
+    width: 30rem;
+    background-color: hsl(var(--primary-lighter));
+    display: flex;
+    justify-content: center;
+    color: hsl(var(--rating-color));
+}
+
+.numbered-rating{
+    background-color: hsl(var(--green-color));
+    font-size: 1.5rem;
+}
