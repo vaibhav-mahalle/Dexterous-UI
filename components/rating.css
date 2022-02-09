@@ -5,7 +5,7 @@
     background-color: hsl(var(--primary-lighter));
     display: flex;
     justify-content: center;
-    color: rgb(255,164,29);
+    color: hsl(var(--rating-color));
 }
 
 .numbered-rating{
