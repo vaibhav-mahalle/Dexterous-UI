@@ -1,0 +1,30 @@
+@import url(/stylesheets/main.css);
+
+.image-container{
+    background-color: hsl(var(--primary-lighter));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.image{
+    max-width: 100%;
+    object-fit: cover;
+    block-size: auto;
+}
+
+.image-sm{
+    width: 7rem;
+    aspect-ratio: 1;
+}
+
+.image-lg{
+    width: 13rem;
+    aspect-ratio: 1;
+}
+
+.image-round{
+    border-radius: 50%;
+}
