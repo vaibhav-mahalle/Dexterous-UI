@@ -2,42 +2,11 @@
 @import url(/stylesheets/general.css);
 @import url(/stylesheets/reset.css);
 @import url(/stylesheets/utilities.css);
+@import url(/components/button.css);
+@import url(/components/avatars.css);
 
 body {
   font-family: "Nunito Sans", sans-serif;
-}
-
-:root {
-  --primary-100: hsl(177, 100%, 16%);
-  --secondary-100: hsl(177, 70%, 70%);
-  --danger: hsl(0, 91%, 50%);
-  --success: hsl(120, 100%, 25%);
-  --warning: rgb(236, 194, 56);
-  --link-color: rgb(100, 106, 223);
-  --primary-darker: 209, 100%, 20%;
-  --primary-dark: 209, 80%, 35%;
-  --primary: 209, 100%, 55%;
-  --primary-light: 209, 100%, 70%;
-  --primary-lighter: 209, 25%, 85%;
-  --secondary-darker: 18, 100%, 20%;
-  --secondary-dark: 18, 80%, 35%;
-  --secondary: 18, 98%, 59%;
-  --secondary-light: 18, 100%, 70%;
-  --secondary-lighter: 18, 25%, 85%;
-  --red-700: 0, 100%, 42%;
-  --red-500: 0, 100%, 65%;
-  --red-300: 0, 100%, 95%;
-  --green-700: 108, 72%, 30%;
-  --green-500: 108, 80%, 45%;
-  --green-300: 108, 100%, 95%;
-  --orange-700: 36, 100%, 25%;
-  --orange-500: 36, 100%, 50%;
-  --orange-300: 36, 100%, 90%;
-  --blue-700: 205, 100%, 35%;
-  --blue-500: 200, 100%, 50%;
-  --blue-300: 200, 100%, 90%;
-  }
-  
 }
 
 .page-container {
