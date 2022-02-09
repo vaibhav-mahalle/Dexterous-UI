@@ -1,7 +1,6 @@
 @import url(/stylesheets/main.css);
 
 .input {
-  display: block;
   padding: 0.5rem;
   width: 15rem;
   margin-top: 5px;
@@ -21,6 +20,6 @@
 }
 
 input[type="text"]:disabled{
-  background: hsla(0, 0%, 50%,0.1);
+  background: hsla(var(--disabled-bg-color));
   border: none;
 }
