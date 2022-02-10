@@ -1,0 +1,10 @@
+@import url(/stylesheets/main.css);
+
+.snackbar-container{
+    width: 100%;
+    background-color: hsl(var(--primary-lighter));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
