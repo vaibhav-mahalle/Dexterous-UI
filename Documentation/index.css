@@ -12,8 +12,12 @@
 
 
 .drawer-container{
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 2rem;
     background-color: hsla(var(--secondary-light),0.1);
+    width: 15rem;
+    overflow-y: scroll;
 }
