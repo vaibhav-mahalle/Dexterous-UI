@@ -35,6 +35,16 @@
   padding: 0.6rem 1rem;
 }
 
+.btn-link-noBorder{
+  border: none;
+  color: black;
+  background-color: transparent;
+}
+
+.btn-link-noBorder:hover{
+  color: hsl(var(--primary-color));
+}
+
 .btn-outline-primary,
 .btn-outline-secondary,
 .btn-outline-danger,
