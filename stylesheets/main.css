@@ -4,6 +4,7 @@
 @import url(/stylesheets/utilities.css);
 @import url(/components/button.css);
 @import url(/components/avatars.css);
+@import url(/components/image.css);
 /* @import url(/documentation/index.css); */
 
 .page-container {
