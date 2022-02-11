@@ -1,0 +1,75 @@
+/* using border-box model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* setting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* setting default size to 100% */
+html,
+body {
+  height: 100%;
+}
+
+img,iframe
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+/* setting default line height */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+/* text-overflows are handled */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* inherit font for consistent styling */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* removing list-style */
+ul {
+  list-style-type: none;
+}
+
+/* removing styling to link tag */
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Html behaviour */
+html {
+  scroll-behavior: smooth;
+}

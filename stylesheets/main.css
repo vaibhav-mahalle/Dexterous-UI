@@ -5,10 +5,6 @@
 @import url(/components/button.css);
 @import url(/components/avatars.css);
 
-body {
-  font-family: "Nunito Sans", sans-serif;
-}
-
 .page-container {
   display: flex;
   flex-direction: column;
@@ -21,9 +17,3 @@ body {
   gap: 0.5rem;
 }
 
-img, picture, video, canvas,iframe, svg {
-    display: block;
-    max-width: 100%;
-    max-inline-size: 100%;
-    height: auto;
-  }
