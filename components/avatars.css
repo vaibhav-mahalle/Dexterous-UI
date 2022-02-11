@@ -9,12 +9,12 @@
 
 .avatar-container {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
   justify-content: space-around;
   padding: 1rem;
+  background-color: hsla(var(--secondary-color),0.1);
 }
 
 .avatar-presence {

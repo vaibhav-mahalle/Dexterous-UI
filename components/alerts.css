@@ -1,14 +1,6 @@
 @import url(/stylesheets/main.css);
 
 
-.parent-container{
-    margin: 1rem;
-    width: 50rem;
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .alert {
   display: block;
   width: 25rem;
