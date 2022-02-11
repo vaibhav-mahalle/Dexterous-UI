@@ -1,12 +1,19 @@
-@import url(/stylesheets/style.css);
+@import url(/stylesheets/main.css);
 
-.container{
-    width: 100%;
-
+.drawer-button{
+    border: none;
+    color: black;
+    background-color: transparent;
 }
 
-.align-center{
+.drawer-button:hover{
+    color: hsl(var(--primary-color));
+}
+
+
+.drawer-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsla(var(--secondary-light),0.1);
 }

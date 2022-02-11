@@ -4,6 +4,7 @@
 @import url(/stylesheets/utilities.css);
 @import url(/components/button.css);
 @import url(/components/avatars.css);
+/* @import url(/documentation/index.css); */
 
 .page-container {
   display: flex;
@@ -17,3 +18,21 @@
   gap: 0.5rem;
 }
 
+
+.drawer-button{
+  border: none;
+  color: black;
+  background-color: transparent;
+}
+
+.drawer-button:hover{
+  color: hsl(var(--primary-color));
+}
+
+
+.drawer-container{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: hsla(var(--secondary-light),0.1);
+}
