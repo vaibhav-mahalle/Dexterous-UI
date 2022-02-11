@@ -7,7 +7,7 @@
 }
 
 .list-container{
-    width: 20rem;
+    width: 40rem;
     height: 15rem;
     background-color: hsl(var(--primary-lighter));
 
@@ -25,7 +25,6 @@
 .list-title{
     padding-bottom: 5px;
     border-bottom: solid 1px hsl(var(--gray-color));
-    width: 10rem;
     background-color: white;
 }
 
