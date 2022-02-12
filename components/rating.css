@@ -12,3 +12,7 @@
     background-color: hsl(var(--green-color));
     font-size: 1.5rem;
 }
+
+.ratings-container .btn{
+   padding: 0 0.7rem;
+}

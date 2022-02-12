@@ -3,3 +3,65 @@
 body{
     font-family: 'Hahmlet', serif;
 }
+
+/* header */
+.navigation {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(8, 45, 80);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+  
+  .hero-heading{
+    font-size: 48px;
+    color: hsl(var(--primary-color));
+    font-weight: 900;
+  }
+
+  /* sidebar */
+  .drawer-container {
+    top: 0;
+    position: sticky;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    background-color: hsla(var(--secondary-light), 0.1);
+    width: 15rem;
+    
+  
+  }
+  
+  .item-box{
+    margin-top: 4.5rem;
+    overflow-y: scroll;
+    
+  }
+  
+  .box-pill{
+    font-size: 16px;
+  }
+  
+  .title{
+    margin-left: 2rem;
+    line-height: 4rem;
+  }
+  
+  .material-icons{
+    line-height: 4rem;
+  }
+
+  
+  /* main container */
+.parent-container{
+    margin-top: 6rem;
+    padding-left: 17rem;
+    width: 50rem;
+    
+}
