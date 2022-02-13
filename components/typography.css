@@ -1,1 +1,85 @@
-@import url(/stylesheets/main.css);;
+@import url(/stylesheets/main.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/an-old-hope.min.css");
+
+/* font-sizes */
+.font-xxl {
+  font-size: 48px;
+}
+
+.font-xl {
+  font-size: 40px;
+}
+
+.font-lg {
+  font-size: 32px;
+}
+
+.font-md {
+  font-size: 24px;
+}
+
+.font-sm {
+  font-size: 16px;
+}
+
+.font-xs {
+  font-size: 8px;
+}
+
+/* font-weights */
+.font-boldest {
+  font-weight: 900;
+}
+
+.font-bolder {
+  font-weight: 700;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+/* text-transform */
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* align-text */
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.component-display-div {
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: hsla(var(--secondary-light), 0.1);
+  width: 90%;
+}
