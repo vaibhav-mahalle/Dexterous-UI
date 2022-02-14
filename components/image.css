@@ -1,7 +1,6 @@
 @import url(/stylesheets/main.css);
 
 .image-container{
-    background-color: hsl(var(--primary-lighter));
     display: flex;
     align-items: center;
     justify-content: center;
