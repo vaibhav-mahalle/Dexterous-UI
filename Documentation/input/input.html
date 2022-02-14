@@ -11,7 +11,7 @@
 
     <header class="navigation">
       <div class="hero-heading">
-        Dexterous UI
+        Dexterous
       </div>
     </header>
     <div class="drawer-container">
@@ -83,7 +83,7 @@
           </a>
         </div>
         <div class="box-pill">
-          <a class="btn btn-link-noBorder" href="./lists/lists.html">
+          <a class="btn btn-link-noBorder" href="/documentation/lists/lists.html">
             <span class="material-icons">list</span>
             <span class="title">List</span>
           </a>
@@ -117,8 +117,8 @@
       <h3>Inputs</h3>
       <p>An input is a field used to elicit a response from a user</p>
       
-      <div>
-        <h4>Label Inputs</h4>
+      <h4>Label Inputs</h4>
+      <div class="component-display-div">
         <div>
           <h5>Standard</h5>
           <input class="input std-input" type="text" placeholder="standard-input"/>
@@ -138,10 +138,36 @@
         <h5>Error</h5>
         <input class="input error-input" type="text" placeholder="error" />
       </div>
-    </div>
+      </div>
 
-    <div>
-      <h4>Radio Inputs</h4>
+      <pre>
+        <code class="highlight-code">
+    <div class="component-display-div">
+        <div>
+          <h5>Standard</h5>
+          <input class="input std-input" type="text" placeholder="standard-input"/>
+        </div>
+
+        <div>
+        <h5>Focus</h5>
+        <input class="input focus-input" type="text" placeholder="focus-input"/>
+        </div>
+
+        <div>
+          <h5>Disabled</h5>
+          <input class="input disabled-input" type="text" placeholder="disabled-input" disabled/>
+        </div>
+            
+        <div>
+          <h5>Error</h5>
+          <input class="input error-input" type="text" placeholder="error" />
+        </div>
+    </div>
+        </code>
+      </pre>
+
+    <h4>Radio Inputs</h4>
+    <div class="component-display-div">
       <input type="radio" checked />
       <label for="checked">checked</label>
 
@@ -152,8 +178,23 @@
       <label for="checked">disabled</label>
     </div>
 
-    <div>
-      <h4>Checkbox</h4>
+    <pre>
+      <code class="highlight-code">
+    <div class="component-display-div">
+      <input type="radio" checked />
+      <label for="checked">checked</label>
+
+      <input type="radio" />
+      <label for="checked">unchecked</label>
+
+      <input type="radio" disabled />
+      <label for="checked">disabled</label>
+    </div>
+      </code>
+    </pre>
+
+    <h4>Checkbox</h4>
+    <div class="component-display-div">
       <input type="checkbox" checked/>
       <label for="checked">checked</label>
 
@@ -163,6 +204,29 @@
       <input type="checkbox" disabled />
       <label for="checked">disabled</label>
     </div>
+
+    <pre>
+      <code class="highlight-code">
+    <div class="component-display-div">
+      <input type="checkbox" checked/>
+      <label for="checked">checked</label>
+
+      <input type="checkbox" />
+      <label for="checked">unchecked</label>
+
+      <input type="checkbox" disabled />
+      <label for="checked">disabled</label>
+    </div>
+      </code>
+    </pre>
   </div>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+
+  <script src="/snippet.js"></script>
+  </body>
   </body>
   </html>
