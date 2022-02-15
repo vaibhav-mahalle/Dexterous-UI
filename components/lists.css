@@ -2,10 +2,6 @@
 
 
 .list-container{
-    width: 40rem;
-    height: 15rem;
-    background-color: hsl(var(--primary-lighter));
-
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,8 +1,6 @@
 @import url(/stylesheets/main.css);
 
 .ratings-container{
-    width: 30rem;
-    background-color: hsl(var(--primary-lighter));
     display: flex;
     justify-content: center;
     color: hsl(var(--rating-color));

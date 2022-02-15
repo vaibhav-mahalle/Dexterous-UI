@@ -10,7 +10,7 @@
 <body>
   <header class="navigation">
     <div class="hero-heading">
-      Dexterous UI
+      Dexterous
     </div>
   </header>
   <div class="drawer-container">
@@ -82,7 +82,7 @@
         </a>
       </div>
       <div class="box-pill">
-        <a class="btn btn-link-noBorder" href="./lists/lists.html">
+        <a class="btn btn-link-noBorder" href="/documentation/lists/lists.html">
           <span class="material-icons">list</span>
           <span class="title">List</span>
         </a>
@@ -114,6 +114,7 @@
     <div class="parent-container">
         <h3>Image</h3>
         <h4>Square Image</h4>
+        <div class="component-display-div">
         <div class="image-container">
         <div class="image image-sm">
             <img src="/assets/anime-img.jpeg" class="image-sm" alt="">
@@ -121,9 +122,24 @@
         <div class="image image-lg">
             <img src="/assets/itachi-img.jpg" class="image-lg" alt="">
         </div>
+        </div>
+        </div>
+
+    <pre>
+      <code class="highlight-code">
+    <div class="image-container">
+    <div class="image image-sm">
+        <img src="/assets/anime-img.jpeg" class="image-sm" alt="">
     </div>
+    <div class="image image-lg">
+        <img src="/assets/itachi-img.jpg" class="image-lg" alt="">
+    </div>
+    </div>
+      </code>
+    </pre>
     
     <h4>Circle Image</h4>
+    <div class="component-display-div">
     <div class="image-container">
         <div class="image image-sm">
             <img src="/assets/anime-img.jpeg" class="image-sm image-round" alt="">
@@ -133,5 +149,30 @@
         </div>
     </div>
     </div>
+
+    <pre>
+      <code class="highlight-code">
+    <div class="image-container">
+    <div class="image image-sm">
+          <img src="/assets/anime-img.jpeg" class="image-sm image-round" alt="">
+    </div>
+    <div class="image image-lg">
+          <img src="/assets/itachi-img.jpg" class="image-lg image-round" alt="">
+    </div>
+    </div>
+      </code>
+    </pre>
+
+  </div>
+
+    
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+
+  <script src="/snippet.js"></script>
+  </body>
 </body>
 </html>

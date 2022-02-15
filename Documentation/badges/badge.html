@@ -16,7 +16,7 @@
   <body>
     <header class="navigation">
       <div class="hero-heading">
-        Dexterous UI
+        Dexterous
       </div>
     </header>
     <div class="drawer-container">
@@ -88,7 +88,7 @@
           </a>
         </div>
         <div class="box-pill">
-          <a class="btn btn-link-noBorder" href="./lists/lists.html">
+          <a class="btn btn-link-noBorder" href="/documentation/lists/lists.html">
             <span class="material-icons">list</span>
             <span class="title">List</span>
           </a>
@@ -122,12 +122,11 @@
       <p>Badge is used to show some additional information to the user.</p>
 
       <h3>Badge on icon</h3>
-      <div class="badge-container">
-        <div class="icon-container">
+      <div class="component-display-div">
+        <div class="badge-container">
+          <div class="icon-container">
           <div class="badge align-badge">4</div>
-          <button class="btn btn-icon">
-            <i class="far fa-shopping-cart"></i>
-          </button>
+          <button class="btn btn-icon"><i class="far fa-shopping-cart"></i></button>
         </div>
 
         <div class="icon-container">
@@ -140,8 +139,30 @@
           <button class="btn btn-icon"><i class="fal fa-download"></i></button>
         </div>
       </div>
+      </div>
+
+      <pre>
+        <code class="highlight-code">
+
+      <div class="icon-container">
+      <div class="badge align-badge">4</div>
+      <button class="btn btn-icon"><i class="far fa-shopping-cart"></i></button>
+      </div>
+
+    <div class="icon-container">
+      <div class="badge align-badge">4</div>
+      <button class="btn btn-icon"><i class="fad fa-bell"></i></button>
+    </div>
+
+    <div class="icon-container">
+      <div class="badge align-badge">4</div>
+      <button class="btn btn-icon"><i class="fal fa-download"></i></button>
+    </div>      
+        </code>
+      </pre>
 
       <h3>Badges on Avatar</h3>
+      <div class="component-display-div">
       <div class="avatar-container background">
         <div>
           <div class="avatar avatar-sm">
@@ -171,6 +192,40 @@
           <div class="badge badge-xl badge-online"></div>
         </div>
       </div>
+      </div>
+
+      <pre>
+        <code class="highlight-code">
+    <div class="avatar avatar-sm">
+      <img src="/assets/minion-avatar.jpg" alt="avatar-svg" />
     </div>
+    <div class="badge badge-sm"></div>
+
+    <div class="avatar avatar-md">
+      <img src="/assets/minion-avatar.jpg" alt="avatar-svg" />
+    </div>
+    <div class="badge badge-md badge-offline"></div>
+
+    <div class="avatar avatar-lg">
+      <img src="/assets/minion-avatar.jpg" alt="avatar-svg" />
+    </div>
+    <div class="badge badge-lg badge-busy"></div>
+
+    <div class="avatar avatar-xl">
+      <img src="/assets/minion-avatar.jpg" alt="avatar-svg" />
+    </div>
+    <div class="badge badge-xl badge-online"></div>
+
+        </code>
+      </pre>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+
+  <script src="/snippet.js"></script>
+  </body>
   </body>
 </html>
