@@ -1,1 +1,74 @@
 @import url(/stylesheets/main.css);
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 20rem;
+    background-color: hsl(var(--white-color));
+}
+
+.card-shadow{
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;;
+}
+
+.card-badge{
+    padding-left: 0.5rem;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #d53d4c;
+    height: 1.2rem;
+    width: 6rem;
+    color: hsl(var(--white-color));
+}
+
+.align-badge-top{
+    position: relative;
+    bottom: 21rem;
+    left: -0.5rem;
+}
+
+.icon-color{
+    color: red;
+}
+
+.card-icon{
+    position: relative;
+    bottom: 22.3rem;
+    left: 17.2rem;
+}
+
+.card-rating{
+    height: fit-content;
+    border-radius: 0;
+}
+
+.card-rating.flex-row{
+    gap: 0.3rem;
+    background-color: hsl(var(--green-color));
+    padding: 4px;
+    text-align: center;
+}
+
+
+.overlay-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: hsla(var(--white-color),0.5);
+    color: red;
+}
+
+.overlay-text{
+    padding: 0.5rem;
+}
+
+.blur{
+    background-color: hsla(var(--gray-color),0.9);
+}

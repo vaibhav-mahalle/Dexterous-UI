@@ -2,10 +2,17 @@
 @import url(/stylesheets/general.css);
 @import url(/stylesheets/reset.css);
 @import url(/stylesheets/utilities.css);
-@import url(/components/button.css);
+@import url(/components/alerts.css);
 @import url(/components/avatars.css);
+@import url(/components/badge.css);
+@import url(/components/button.css);
+@import url(/components/cards.css);
 @import url(/components/image.css);
+@import url(/components/input.css);
+@import url(/components/lists.css);
+@import url(/components/rating.css);
 @import url(/components/typography.css);
+
 /* @import url(/documentation/index.css); */
 
 .container {
