@@ -18,6 +18,10 @@
   gap: 5rem;
 }
 
+.btn-home:hover{
+  background-color: hsla(var(--primary-color),0.8);
+}
+
 .index-heading{
   color: hsl(209, 82%, 17%);
 }
