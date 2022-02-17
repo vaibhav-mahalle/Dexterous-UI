@@ -1,12 +1,23 @@
 @import url(/stylesheets/main.css);
 
-/* .drawer-button {
-  border: none;
-  color: black;
-  background-color: transparent;
+
+.btn-home{
+  padding: 5px;
+  width: 8rem;
+  height: fit-content;
+  text-align: center;
 }
 
-.drawer-button:hover {
-  color: hsl(var(--primary-color));
-} */
+.home-container{
+  margin-left: 0;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
 
+.index-heading{
+  color: hsl(209, 82%, 17%);
+}
