@@ -65,3 +65,16 @@
     align-items: center;
     justify-content: center;
 }
+
+/* heading and subheading classes */
+.page-heading{
+    font-size: 28px;
+    padding-bottom: 2rem;
+    color: hsl(var(--accent-color));
+}
+
+.page-subheading{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    color: hsla(var(--accent-color),0.8);
+}
