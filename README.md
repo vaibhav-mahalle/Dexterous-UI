@@ -9,7 +9,7 @@ Its an efficient CSS component library, which can be used to create clean and re
 
 ## Live URL
 
-### <https://https://dexterous-ui.netlify.app/>  
+### <https://dexterous-ui.netlify.app/>  
 
 ## Preview 
 
