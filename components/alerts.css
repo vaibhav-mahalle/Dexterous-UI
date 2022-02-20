@@ -3,10 +3,12 @@
 
 .alert {
   display: block;
-  width: 25rem;
+  width: 50%;
   border: 1px solid;
   padding-left: 1rem;
   padding: 1rem;
+  text-align: center;
+  margin: 1rem auto;
 }
 
 .alert-primary {
@@ -57,4 +59,9 @@
 .outline-warning {
   color: hsl(var(--orange-color));
   border-color: hsl(var(--orange-color));
+}
+
+.outline-container .outline-primary,.outline-container .outline-secondary,.outline-container .outline-success,.outline-container .outline-danger,.outline-container .outline-warning{
+  background-color: hsl(0, 0%, 100%);
+  border: solid 1.35px;
 }
