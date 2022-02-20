@@ -38,7 +38,7 @@ or
  
 
 ### Colors
- The four main colors used by Tarang are
+ The four main colors used by Dexterous are
 
  - Primary-color: `hsl(332, 100%, 64%)`
  - Secondary-color: `hsl(195, 100%, 44%)`	
