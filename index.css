@@ -1,11 +1,27 @@
 @import url(/stylesheets/main.css);
 
+body{
+  background-color: var(--bg-secondary);
+  
+}
 
 .btn-home{
   padding: 5px;
-  width: 8rem;
+  width: 12rem;
   height: fit-content;
   text-align: center;
+  background-color: var(--bg-color);
+}
+
+.btn-home-outlined{
+  padding: 5px;
+  width: 12rem;
+  background-color: white;
+  border: 2px solid var(--bg-color);
+  color: var(--bg-color);
+  height: fit-content;
+  text-align: center;
+
 }
 
 .home-container{
@@ -15,13 +31,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  height: calc(100vh - 12rem );
 }
 
 .btn-home:hover{
-  background-color: hsla(var(--primary-color),0.8);
+  background-color: var(--bg-color);
 }
 
 .index-heading{
-  color: hsl(209, 82%, 17%);
+  color: var(--bg-color);
 }
