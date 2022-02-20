@@ -9,6 +9,7 @@ header{
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
 
+
 /* header */
 .navigation {
     position: fixed;
@@ -16,7 +17,7 @@ header{
     z-index: 1;
     height: 5rem;
     width: 100%;
-    background-color: rgb(8, 45, 80);
+    background-color: var(--bg-color);
     display: flex;
     justify-content: flex-start;
     padding-left: 1rem;
@@ -24,7 +25,7 @@ header{
   
   .hero-heading{
     font-size: 48px;
-    color: hsl(var(--primary-color));
+    color: var(--headline-color);
     font-weight: 900;
   }
 
@@ -51,6 +52,8 @@ header{
   
   .box-pill{
     font-size: 16px;
+    display: flex;
+    align-items: center;
   }
   
   .title{
