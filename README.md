@@ -46,7 +46,7 @@ Its an efficient CSS component library, which can be used to create clean and re
 
 or
 
-- To link in the CSS file - ```@import url("https://https://dexterous-ui.netlify.app/stylesheets/main.css");```
+- To link in the CSS file - ```@import url("https://dexterous-ui.netlify.app/stylesheets/main.css");```
 
 
 
