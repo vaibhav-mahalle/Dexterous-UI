@@ -2,7 +2,7 @@
 @import url(/components/button.css);
 
 .avatar > img {
-  border: solid hsla(var(--secondary-color),0.8);
+  border: solid var(--bg-color);
   height: auto;
   border-radius: 50%;
 }
@@ -20,7 +20,7 @@
   border-radius: 50%;
   height: 1rem;
   width: 1rem;
-  position: relative;
+  position: absolute;
   top: 2rem;
   left: 4.9rem;
 }

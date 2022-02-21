@@ -7,6 +7,15 @@
     --secondary-light: 195, 100%, 64%;
     --secondary-lighter: 195, 100%, 77%;
 
+    --bg-color: hsl(177, 100%, 14%);
+    --bg-secondary: hsl(163, 29%, 75%);
+
+
+    --headline-color: hsl(60, 100%, 100%);
+    --highlight-color: hsl(36, 93%, 68%);
+
+    --highlight-complementary: hsl(288, 100%, 22%);
+
     --accent-color: 209, 82%, 17%;
 
     --red-dark: 0, 100%, 42%;
