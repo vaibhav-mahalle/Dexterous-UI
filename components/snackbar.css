@@ -1,0 +1,16 @@
+@import url(/stylesheets/main.css);
+
+.snackbar-container{
+    background-color: white;
+    border-radius: 4px;
+    width: 80%;
+    
+}
+
+.snackbar-button{
+    color: var(--highlight-color);
+}
+
+.snackbar-button:hover{
+    color: var(--bg-color);
+}
