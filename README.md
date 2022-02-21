@@ -32,7 +32,7 @@ or
 ## Features
 
 ### Typography
- Tarang uses 2 fonts primarily 
+ Dexterous uses 2 fonts primarily 
 - `Baloo Bhaijaan 2` for Brand Logo
 -  `Hahmlet` for html to maintain consistency. 
  
