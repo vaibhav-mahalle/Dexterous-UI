@@ -1,0 +1,25 @@
+@import url(/stylesheets/main.css);
+
+.grid {
+  display: grid;
+  width: 100%;
+}
+
+.grid-gap-1 {
+    gap: 1rem;
+}
+.two-col-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 5rem;
+}
+.three-col-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 5rem;
+}
+
+.grid-container{
+  color: var(--headline-color);
+  background-color: var(--bg-color);
+  border-radius: 3px;
+  text-align: center;
+}
