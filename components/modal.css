@@ -1,0 +1,27 @@
+@import url(/stylesheets/main.css);
+
+.modal-container{
+    width: 15rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: inherit;
+    position: relative;
+}
+
+.modal-container .btn-success{
+    background-color: var(--bg-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.modal-container .btn-outline-danger{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.cancel-badge{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: hsl(var(--red-color));
+}
