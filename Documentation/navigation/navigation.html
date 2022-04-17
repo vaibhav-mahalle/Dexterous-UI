@@ -2,17 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/components/lists.css" />
+    <link rel="stylesheet" href="/components/navigation.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lists Dexterous-UI</title>
+    <title>navigation Dexterous UI</title>
   </head>
   <body>
-
     <header class="navigation">
-      <div class="hero-heading">
-        Dexterous
-      </div>
+      <div class="hero-heading">Dexterous</div>
     </header>
     <div class="drawer-container">
       <div class="item-box">
@@ -149,65 +146,94 @@
           </a>
         </div>
       </div>
-    </div>  
-
+    </div>
     <div class="parent-container">
-      <h2 class="heading-highlight">Lists</h2>
-      <p class="m-b-1">Lists are used to group similar items together.</p>
+      <h3 class="heading-highlight m-b-1">Header</h3>
+      <p class="m-b-1">
+        Header is an essential component of the website.It generally contains
+        the Brand logo, the navigation links, the search bars, the menu items
+        etc.
+      </p>
 
-      <h3 class="subheading-highlight">Spaced list</h3>
-      <div class="component-display-div list-container">
-        <ul class="list">
-          <div class="list-title">Characters</div>
-          <li class="list-item">Sasuke</li>
-          <li class="list-item">Itachi</li>
-          <li class="list-item">Madara</li>
-        </ul>
-      </div>
+      <h4 class="subheading-highlight m-b-1">Standard Header</h4>
+      <header>
+        <div class="standard-header button-box flex-row">
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="/pages/cart.html">
+              <span class="material-icons">menu</span>
+            </a>
+          </div>
+          <div class="box-pill font-bold font-lg">Gourmet</div>
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="/pages/wishlist.html">
+              <span class="material-icons">favorite_border</span>
+            </a>
+          </div>
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="/pages/cart.html">
+              <span class="material-icons">shopping_cart</span>
+            </a>
+          </div>
+          <div class="box-pill p-1">
+            <a
+              class="btn btn-link-noBorder font-bold"
+              href="/pages/product-listing.html"
+            >
+              products
+            </a>
+          </div>
+          <div class="box-pill p-1">
+            <a
+              class="btn btn-link-noBorder font-bold"
+              href="/pages/signup.html"
+            >
+              SignIn
+            </a>
+          </div>
+        </div>
+      </header>
 
       <pre>
         <code class="highlight-code">
-    <div class="component-display-div list-container">
-      <ul class="list">
-        <div class="list-title">Characters</div>
-        <li class="list-item">Sasuke</li>
-        <li class="list-item">Itachi</li>
-        <li class="list-item">Madara</li>
-      </ul>
-    </div>
+          <header>
+            <div class="standard-header button-box flex-row">
+              <div class="box-pill font-bold font-lg">Gourmet</div>
+              <div class="box-pill">
+                <a class="btn btn-link-noBorder" href="/pages/wishlist.html">
+                  <span class="material-icons">favorite_border</span>
+                </a>
+              </div>
+              <div class="box-pill">
+                <a class="btn btn-link-noBorder" href="/pages/cart.html">
+                  <span class="material-icons">shopping_cart</span>
+                </a>
+              </div>
+              <div class="box-pill p-1">
+                <a
+                  class="btn btn-link-noBorder font-bold"
+                  href="/pages/product-listing.html"
+                >
+                  products
+                </a>
+              </div>
+              <div class="box-pill p-1">
+                <a
+                  class="btn btn-link-noBorder font-bold"
+                  href="/pages/signup.html"
+                >
+                  SignIn
+                </a>
+              </div>
+            </div>
+          </header>
         </code>
       </pre>
-
-      <h3 class="subheading-highlight">Checked list</h3>
-      <div class="component-display-div list-container">
-        <ul class="list">
-          <div class="list-title">Characters</div>
-          <li class="list-item"><input type="checkbox" checked />Sasuke</li>
-          <li class="list-item"><input type="checkbox" />Itachi</li>
-          <li class="list-item"><input type="checkbox" unchecked />Madara</li>
-        </ul>
-      </div>
-
-      <pre>
-        <code class="highlight-code">
-    <div class="component-display-div list-container">
-      <ul class="list">
-        <div class="list-title">Characters</div>
-          <li class="list-item"><input type="checkbox" checked />Sasuke</li>
-          <li class="list-item"><input type="checkbox" />Itachi</li>
-          <li class="list-item"><input type="checkbox" unchecked />Madara</li>
-      </ul>
     </div>
-        </code>
-      </pre> 
-    </div>
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
-  <script>
-    hljs.highlightAll();
-  </script>
+    <script>
+      hljs.highlightAll();
+    </script>
 
-  <script src="/snippet.js"></script>
-  </body>
+    <script src="/snippet.js"></script>
   </body>
 </html>

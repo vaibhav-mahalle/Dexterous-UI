@@ -1,0 +1,17 @@
+@import url(/stylesheets/main.css);
+
+
+.standard-header{
+    height: 5rem;
+    width: 90%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    padding-left: 1rem;
+    border-radius: 5px;
+    color: var(--white-color);
+}
+
+.standard-header .box-pill .btn{
+    color: var(--white-color);
+}
