@@ -9,9 +9,9 @@
     justify-content: center;
     padding-left: 1rem;
     border-radius: 5px;
-    color: white;
+    color: var(--white-color);
 }
 
 .standard-header .box-pill .btn{
-    color: white;
+    color: var(--white-color);
 }
